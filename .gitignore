@@ -1,0 +1,30 @@
+[Libraries and system files]
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+[OS generated files]
+.DS_Store
+Thumbs.db
+
+[Visual Studio]
+.vscode/
+.vs/
+
+[Crash logs]
+sysinfo.txt
