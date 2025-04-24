@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3bd28d66dbd5a443a76f88b2bd4e2b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoretext: {fileID: 0}
+  scoretext: {fileID: 1106652943}
 --- !u!1 &42778377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1026,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Coins Score:'
+  m_Text: 'Coins: 0'
 --- !u!222 &344109349
 CanvasRenderer:
   m_ObjectHideFlags: 0
