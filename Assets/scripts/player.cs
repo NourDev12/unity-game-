@@ -19,6 +19,7 @@ public class player : MonoBehaviour
     public Text hearttext;
     private Vector3 respawn;
     public game_over gameov;
+    public winscreen wins;
     // Start is called before the first frame update
     void Start()
     {
@@ -73,6 +74,10 @@ public class player : MonoBehaviour
             {
                 gameov.display(score);
             }
+        }
+        else if (collision.tag == "win") 
+        {
+            wins.windisplay();
         }
     }
     private void OnTriggerStay2D(Collider2D collision)
